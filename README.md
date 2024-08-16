@@ -4,13 +4,33 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This Flutter application demonstrates an animated list where users can add and remove items with smooth transitions. The app includes:
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Animated List:** Displays a list of animal names with smooth animations for adding and removing items.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**FAB Navigation:** A Floating Action Button (FAB) allows users to navigate to a new page for adding a new animal.
+
+**Add Animal Page:** Users can input an animal name and return to the main list with a slide and fade transition.
+
+**Duplicate Check:** Ensures that duplicate animal names are not added, with feedback provided via a Snackbar.
+
+**Features**
+
+**Add Item:** Click the FAB to navigate to a new page, input a name, and return to the list with an animation.
+
+**Remove Item:** Swipe or click the delete icon to remove items from the list with smooth animations.
+
+**Case-Insensitive Check:** Prevents adding duplicate names regardless of case.
+
+**Usage**
+
+1. Run the app.
+
+2. Click the FAB to navigate to the "Add Animal" page.
+
+3. Enter a new animal name and press "Add".
+
+4. The new name will appear in the list with a smooth transition if it’s not a duplicate.
+
+5. Remove items by clicking the delete icon.
